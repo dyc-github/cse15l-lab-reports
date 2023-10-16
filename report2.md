@@ -83,8 +83,5 @@ Path to my public key:
 Q: A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
 <img width="836" alt="Screenshot 2023-10-16 at 4 51 15 PM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/ef971ea2-02b2-4852-8229-6a54a1fc9dbf">
 
-
-
-
-
 ## Part 3
+Something I learned in week 2 was how to connect to remote servers using ssh. I had only used ssh in refrence to ssh keys for github but now know how to access remote terminals using ssh and a URI. 
