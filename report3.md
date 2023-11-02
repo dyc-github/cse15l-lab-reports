@@ -79,7 +79,7 @@ Terminal output:
 I have chosen the ``` find ``` command. 
 
 ### ``` -name ``` option
-I found out about this command through the [CSE 15L class] (https://ucsd-cse15l-f23.github.io/week/week5/). I also found additional notes on [Linuxize's guide on the find command](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/#:~:text=Finding%20files%20by%20name%20is,file%20you%20are%20searching%20for.) for examples. 
+I found out about this command through the [CSE 15L class](https://ucsd-cse15l-f23.github.io/week/week5/). I also found additional notes on [Linuxize's guide on the find command](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/#:~:text=Finding%20files%20by%20name%20is,file%20you%20are%20searching%20for.) for examples. 
 
 - Example 1: We can use name to find a file which we know the name of but don't know where exactly in technical it is. 
 ```
@@ -95,6 +95,23 @@ I found out about this command through the [CSE 15L class] (https://ucsd-cse15l-
 
 ### ```-size``` option
 I found out about this through [Linuxize's guide on the find command](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/#find-files-by-size). This one is interesting as it may help in trying to free up space.
-- Example 1:
+- Example 1: I'm looking for all files greater than 200 kb in size.
+```
+find . -type f -size +200k
+./government/About_LSC/commission_report.txt
+./government/Env_Prot_Agen/bill.txt
+./government/Gen_Account_Office/GovernmentAuditingStandards_yb2002ed.txt
+./government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
+./government/Gen_Account_Office/d01591sp.txt
+./911report/chapter-13.4.txt
+./911report/chapter-13.5.txt
+./911report/chapter-3.txt
+```
+- Example 2: I'm looking for all files less than 1 kb in size.
+```
+(base) davidchoi@Davids-MacBook-Pro technical % find . -type f -size -1k 
+./plos/pmed.0020191.txt
+./plos/pmed.0020226.txt
+```
 
 
