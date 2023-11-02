@@ -76,3 +76,25 @@ Terminal output:
 <img width="970" alt="Screenshot 2023-11-02 at 1 54 55 PM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/80390261-4497-4342-9709-a19d284e1a6d">
 
 ## Part 2 Researching Commands
+I have chosen the ``` find ``` command. 
+
+### ``` -name ``` option
+I found out about this command through the [CSE 15L class] (https://ucsd-cse15l-f23.github.io/week/week5/). I also found additional notes on [Linuxize's guide on the find command](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/#:~:text=Finding%20files%20by%20name%20is,file%20you%20are%20searching%20for.) for examples. 
+
+- Example 1: We can use name to find a file which we know the name of but don't know where exactly in technical it is. 
+```
+(base) davidchoi@Davids-MacBook-Pro technical % find . -name water_fees.txt 
+./government/Media/water_fees.txt
+```
+- Example 2: We can use find in conjunction with * (which is a wildcard character which represents a place holder) to search for all files that match the pattern of our search.
+```
+(base) davidchoi@Davids-MacBook-Pro technical % find . -name "Texas*"
+./government/Media/Texas_Lawyer.txt
+./government/Media/Texas_Supreme_Court.txt
+```
+
+### ```-size``` option
+I found out about this through [Linuxize's guide on the find command](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/#find-files-by-size). This one is interesting as it may help in trying to free up space.
+- Example 1:
+
+
