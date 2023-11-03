@@ -53,7 +53,7 @@ A: The handleRequest method takes in a URI, the value of which is new URI("http:
 
 Q: How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-A: The uri contains the query s=Hello
+A: The handleRequest method takes in a URI that contains path "/add-message" and query s=Hello. The variable ```parameters``` is the array {"s", "Hello"}. Since the parameter is s we append our output to global ArrayList ```strings```. We then output the value of ```strings``` which also includes our new query "Hello". 
 
 <img width="1512" alt="Screenshot 2023-10-16 at 11 43 59 AM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/6a49118e-6377-4a5d-b172-39ed740d5442">
 
@@ -63,7 +63,7 @@ A: main in the StringServer class is called and handleRequest in the Handler cla
 
 Q: What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
-A: The handleRequest method takes in a URI, the value of which is new URI("http://localhost:2343/add-message?s=How are you"). The main class takes in an array of strings that contains value of the port number of our server.
+A: The handleRequest method takes in a URI that contains path "/add-message" and query s=How are you. The variable ```parameters``` is the array {"s", "How are you"}. Since the parameter is s we append our output to global ArrayList ```strings```. We then output the value of ```strings``` which also includes our new query "How are you". 
 
 Q: How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
@@ -73,12 +73,12 @@ A: The uri contains the query s=How are you
 Q: The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
 
 Path to my private key:
-<img width="365" alt="Screenshot 2023-10-16 at 4 47 20 PM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/9d748292-f451-4c42-b65e-0ffbd197f3f3">
+<img width="493" alt="Screenshot 2023-11-02 at 11 43 12 PM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/b9c92136-c28e-43f9-8277-53ef69968d14">
 
 Q: The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
 
 Path to my public key:
-<img width="354" alt="Screenshot 2023-10-16 at 4 49 57 PM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/7b41e80f-1463-4a9c-8ce4-f5f41f08c3b9">
+<img width="603" alt="Screenshot 2023-11-02 at 11 49 09 PM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/e0bef98c-b749-463b-98b2-18209af21d24">
 
 Q: A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
 <img width="836" alt="Screenshot 2023-10-16 at 4 51 15 PM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/ef971ea2-02b2-4852-8229-6a54a1fc9dbf">
