@@ -53,9 +53,13 @@ A: The handleRequest method takes in a URI, the value of which is new URI("http:
 
 Q: How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-A: The handleRequest method takes in a URI that contains path "/add-message" and query s=Hello. The variable ```parameters``` is the array {"s", "Hello"}. Since the parameter is s we append our output to global ArrayList ```strings```. We then output the value of ```strings``` which also includes our new query "Hello". 
+A: 
+```url```  is an argument passed into the handle request method. It will have the value ```new URI("http://localhost:2000/add-message?s=Hello")```.
 
-<img width="1512" alt="Screenshot 2023-10-16 at 11 43 59 AM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/6a49118e-6377-4a5d-b172-39ed740d5442">
+```strings``` is an arraylist containing a list of all strings previously passed in through /add-message. Prior to /add-message?s=Hello ```strings``` was empty and had the value {}. We append the string "Hello" to this list when we request /add-message?s=Hello. So ```strings``` changes to be a list containing the string "Hello" and will have the value {"Hello"}.
+
+```response``` is a string that formats the strings in ```strings``` as a numbered list. Prior to /add-message?s=Hello response would return as an empty string with value "". After /add-message?s=hello response has value: "1. Hello\n".
+<img width="1510" alt="Screenshot 2023-11-04 at 12 28 10 PM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/ef36b733-f9b1-4357-9c7a-6a3ea9102768">
 
 Q: Which methods in your code are called?
 
@@ -67,7 +71,14 @@ A: The handleRequest method takes in a URI that contains path "/add-message" and
 
 Q: How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-A: The uri contains the query s=How are you
+A: 
+```url```  is an argument passed into the handle request method. It will have the value ```new URI("http://localhost:2000/add-message?s=How are you")```.
+
+```strings``` is an arraylist containing a list of all strings previously passed in through /add-message. Prior to /add-message?s=How are you ```strings``` had the value {"Hello"}. We append the string "How are you" to this list when we request /add-message?s=How are you. So ```strings``` changes to be a list containing the string "How are you" and will have the value {"Hello", "How are you"}.
+
+```response``` is a string that formats the strings in ```strings``` as a numbered list. Prior to /add-message?s=How Are You, ```response``` would return as with value "1. Hello\n". After /add-message?s=How are you response has value: 
+"1. Hello\n2. How are you\n".
+<img width="1199" alt="Screenshot 2023-11-04 at 12 30 19 PM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/02816ba1-9945-4fbc-9777-45209a88a795">
 
 ## Part 2
 Q: The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
