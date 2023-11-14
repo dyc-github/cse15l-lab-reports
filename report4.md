@@ -25,7 +25,8 @@ I dont remember the jUnit library commands off the top of my head so I just copy
 
 I then copy the command ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests``` with < cmd > + < c > and < cmd > + < v >. I then delete ```ArrayTests``` by pressing key < delete > 10 times. I then type ```L``` + < tab > + ```T``` + < tab > and < delete >. This will remove ```ArrayTests``` and replace it with ```ListExampleTests``` for the final command ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```.
 <img width="1035" alt="Screenshot 2023-11-13 at 11 33 58 AM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/f0bbad04-9a3c-49d7-8de7-53e24420fc26">
-So for step 5 all my key presses were:
+So for step 6 all my key presses were:
+
 < cmd >, < c >, < cmd >, < v >, < enter >, < delete > x 10, ```L```, < tab >, ```T```, < tab >, < delete > , <enter>
 
 ## Step 7
@@ -45,12 +46,23 @@ I then do the following keystrokes
 - replace the current character under the curser with the character 2: < r > < 2 >
 <img width="466" alt="Screenshot 2023-11-13 at 11 49 41 AM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/4b8d491f-70fa-4dfd-8558-5b4194b7025b">
 
-- exit and save: < : >< w > < q >
+- exit and save: < : > < w > < q >
 <img width="291" alt="Screenshot 2023-11-13 at 11 49 56 AM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/eb7d2a1b-e2f8-42c1-998e-f87792e655c3">
 
-So for step 6 all my key presses were:
+So for step 7 all my key presses were:
+
+```vim L```, < tab >, ```.j```, < tab >, < enter >, < shift >, < g >, < ? >, < i >, < enter >, < e >, < r >, < 2 >, < : >, < w >, < q >
 ...
 ## Step 8
+We can then press the up arrow 3 times < up > and < enter > to get ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```. 
+<img width="723" alt="Screenshot 2023-11-13 at 1 11 08 PM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/5d35fe12-ae56-4e5e-9e0f-add4363bfd2d">
+
+We can then press the up arrow 3 times < up > and < enter > to get ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```. 
+<img width="869" alt="Screenshot 2023-11-13 at 1 11 33 PM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/1d028047-57bb-4fa0-83cc-5f906645eec1">
+
+So for step 7 all my key presses were:
+3 x < up >, < enter >, 3 x < up >, < enter >
 
 ## Step 9
+
 
