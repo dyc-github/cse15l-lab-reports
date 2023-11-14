@@ -60,9 +60,14 @@ We can then press the up arrow 3 times < up > and < enter > to get ```javac -cp 
 We can then press the up arrow 3 times < up > and < enter > to get ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```. 
 <img width="869" alt="Screenshot 2023-11-13 at 1 11 33 PM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/1d028047-57bb-4fa0-83cc-5f906645eec1">
 
-So for step 7 all my key presses were:
+So for step 8 all my key presses were:
+
 3 x < up >, < enter >, 3 x < up >, < enter >
 
 ## Step 9
+For step 9 I type the following commands followed by enter: ```git add .```, ```git commit -m "fixed"```, ``` git push```.
+<img width="522" alt="Screenshot 2023-11-13 at 7 14 31 PM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/d9ade0c1-2ae0-40bf-87a1-fc72fbbffcd8">
 
+So for step 8 all my key presses were:
 
+ ```git add .```, < enter >, ```git commit -m "fixed"```, < enter >, ``` git push```, < enter >.
