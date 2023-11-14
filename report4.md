@@ -65,9 +65,9 @@ So for step 8 all my key presses were:
 3 x < up >, < enter >, 3 x < up >, < enter >
 
 ## Step 9
-For step 9 I type the following commands followed by enter: ```git add .```, ```git commit -m "fixed"```, ``` git push```.
+For step 9 I type the following commands followed by enter: ```git add .```, ```git commit -m "fixed"```, ```git push```.
 <img width="522" alt="Screenshot 2023-11-13 at 7 14 31 PM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/d9ade0c1-2ae0-40bf-87a1-fc72fbbffcd8">
 
 So for step 8 all my key presses were:
 
- ```git add .```, < enter >, ```git commit -m "fixed"```, < enter >, ``` git push```, < enter >.
+ ```git add .```, < enter >, ```git commit -m "fixed"```, < enter >, ```git push```, < enter >.
