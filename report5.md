@@ -22,6 +22,7 @@ A good first step to take here is to print what the `responseCode` actually is t
 Pay close attention to what `$?` is actually returning the error code of.
 
 **3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.**
+
 OHHHH, I see. After printing out $? I can see that the response code is 0. 
 
 <img width="717" alt="4" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/bc3941dd-a854-401b-a964-3f4e641800b3">
