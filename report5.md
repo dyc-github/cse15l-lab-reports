@@ -29,6 +29,10 @@ OHHHH, I see. After printing out $? I can see that the response code is 0.
 
 <img width="710" alt="5" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/7de7af91-e3ae-4abb-a107-e5942fb87251">
 
+The bug is that my shell script is storing the response code of the assignment to _output_ not the response code of java Main. This is my new code:
+
+<img width="483" alt="Screenshot 2023-12-02 at 10 32 35 PM" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/eb77b5ed-ae8d-48b0-af85-cbdbee786174">
+
 **4. At the end, all the information needed about the setup including:**
 - _The file & directory structure needed_
 
