@@ -34,7 +34,7 @@ OHHHH, I see. After printing out $? I can see that the response code is 0.
 
 All that’s needed is the Main.java and test.sh files within the lab-report-5 directory. Main.class and output.txt will be generated within the same directory.
 
-    <img width="339" alt="6" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/4391091c-47f4-48b2-9218-096cabd9ce9d">
+<img width="339" alt="6" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/4391091c-47f4-48b2-9218-096cabd9ce9d">
 
 - _The contents of each file before fixing the bug_
 
