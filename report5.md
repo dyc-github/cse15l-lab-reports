@@ -23,7 +23,7 @@ Pay close attention to what `$?` is actually returning the error code of.
 
 **3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.**
 
-OHHHH, I see. After printing out $? I can see that the response code is 0. 
+OHHHH, I see. After printing out `$?` I can see that the response code is 0. 
 
 <img width="717" alt="4" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/bc3941dd-a854-401b-a964-3f4e641800b3">
 
@@ -92,7 +92,7 @@ fi
   
 <img width="756" alt="7" src="https://github.com/dyc-github/cse15l-lab-reports/assets/45525219/1ec12321-0489-43a6-b0f0-0caf598a1336">
 
-The better way to do it is to preserve the exit code status by wrapping our command with $(). I learned this from this [stack overflow post](https://superuser.com/questions/363444/how-do-i-get-the-output-and-exit-value-of-a-subshell-when-using-bash-e). This way we can avoid running our program if it takes a long time.
+The better way to do it is to preserve the exit code status by wrapping our command with ```$()```. I learned this from this [stack overflow post](https://superuser.com/questions/363444/how-do-i-get-the-output-and-exit-value-of-a-subshell-when-using-bash-e). This way we can avoid running our program if it takes a long time.
 
 ```
 javac Main.java
